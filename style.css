@@ -167,6 +167,11 @@ h1 {
 .people h3 a:hover { color: var(--orange); }
 .people h3 span { font-family: var(--body); font-weight: 400; font-size: 0.98rem; color: var(--muted); margin-left: 6px; }
 .people p { margin: 0; grid-column: 2; }
+/* Subheading for a second list inside a section, such as advisors or unconfirmed speakers */
+.sub { margin: 36px 0 0; font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.sub + .people li:first-child { border-top: 2px solid var(--ink); margin-top: 12px; }
+.sub + .speakers { margin-top: 12px; }
+div.avatar { user-select: none; }
 
 /* ---------- Footer ---------- */
 
